@@ -1,0 +1,114 @@
+body {
+  background-color: rgb(48, 7, 7);
+  }
+  
+  .header{
+  margin: -4%;
+  height: 120%;
+  
+  }
+  html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+
+  body {
+      width: 70.5rem;
+      height: 30rem;  
+      margin:  1rem;
+      padding: 50px;
+      border: 1px solid rgb(118, 106, 106);
+  }
+
+  
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+ .aboutme{
+ 
+ color: white;
+ float: right;
+ margin-top: -25px;
+
+ }
+
+ .aboutme,span{
+
+ display: block;
+ position: relative;
+ line-height: 1.5em;
+
+ }
+ 
+  
+  .background {
+    height: 70%;
+    width: 100%;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    font-size: 10vw;
+    z-index: 999;
+    font-weight: 700;
+    line-height: 0.6em;
+  }
+  
+  h1 span {
+    font-size: 0.2em;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+
+  .sitemenu ol{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin: 0;
+  padding: 0;
+  
+
+  }
+ ol, ul{
+   
+list-style: none;
+
+
+ }
+
+ a{
+ font-size: 160%;
+ color: white;
+ text-decoration: none;
+
+ }
+
+  
+  
+  .block {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    background: #282525;
+    -webkit-box-shadow: 10px 10px 50px rgba(229, 220, 220, 0.2);
+    box-shadow: 10px 10px 50px rgba(213, 205, 205, 0.2);
+  }
+ 
+  
